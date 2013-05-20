@@ -1,5 +1,5 @@
 import "time";
-import "format-localized";
+import "format-globalize";
 import "format";
 import "format-utc";
 import "format-iso";

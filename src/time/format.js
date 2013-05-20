@@ -1,7 +1,7 @@
 import "../arrays/map";
 import "../format/requote";
 import "day";
-import "format-localized";
+import "format-globalize";
 import "time";
 import "week";
 

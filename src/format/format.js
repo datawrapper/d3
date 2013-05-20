@@ -1,6 +1,6 @@
 import "../arrays/map";
 import "../core/identity";
-import "format-localized";
+import "format-globalize";
 import "formatPrefix";
 import "round";
 
