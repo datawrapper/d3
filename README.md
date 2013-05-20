@@ -1,7 +1,12 @@
-# Data-Driven Documents
+# d3-light.js
 
-**D3.js** is a JavaScript library for manipulating documents based on data. **D3** helps you bring data to life using HTML, SVG and CSS. D3’s emphasis on web standards gives you the full capabilities of modern browsers without tying yourself to a proprietary framework, combining powerful visualization components and a data-driven approach to DOM manipulation.
+d3-light.js is a fork of [D3.js](https://github.com/mbostock/d3) that we use in [Datawrapper](http://datawrapper.de).
 
-Want to learn more? [See the wiki.](https://github.com/mbostock/d3/wiki)
+Major differences:
 
-For examples, [see the gallery](https://github.com/mbostock/d3/wiki/Gallery) and [mbostock’s bl.ocks](http://bl.ocks.org/mbostock).
+* only a limited set of features are included (scales)
+* removed color interpolation
+* added IE compatibility
+* added run-time localization using globalize.js
+* reduced size to 21k
+
