@@ -7,5 +7,6 @@ var d3_time_formatDateTime = "%a %e %b %X %Y",
 var d3_time_days = Globalize.culture(__locale).calendar.days.names,
     d3_time_dayAbbreviations = Globalize.culture(__locale).calendar.days.namesAbbr,
     d3_time_months = Globalize.culture(__locale).calendar.months.names,
-    d3_time_monthAbbreviations = Globalize.culture(__locale).calendar.months.namesAbbr;
+    d3_time_monthAbbreviations = Globalize.culture(__locale).calendar.months.namesAbbr,
+    d3_time_firstDay = Globalize.culture().calendar.firstDay;
 
